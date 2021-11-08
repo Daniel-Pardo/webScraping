@@ -53,10 +53,6 @@ python main.py -a comprar -t viviendas -p barcelona
 ## Salida
 Se obtiene un fichero *.csv* identificado por la acción, el tipo de propiedad, la provincia y la fecha en la que se lanza el script. Además, en el directorio *images* se almacena la imagen principal de cada anuncio con el identificador del anuncio como nombre. 
 
-## [DOI](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- archivo .csv: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5645835.svg)](https://doi.org/10.5281/zenodo.5645835)
-- conjunto de imagenes: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5652229.svg)](https://doi.org/10.5281/zenodo.5652229)
-
-## Zenodo
-- archivo .csv: https://zenodo.org/record/5645835
-- conjunto de imagenes: https://zenodo.org/record/5652229
+## DOI de Zenodo del conjunto de datos
+- archivo .csv: https://zenodo.org/record/5645835 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5645835.svg)](https://doi.org/10.5281/zenodo.5645835)
+- conjunto de imagenes: https://zenodo.org/record/5652229 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5652229.svg)](https://doi.org/10.5281/zenodo.5652229)
