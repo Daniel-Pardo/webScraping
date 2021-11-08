@@ -5,6 +5,9 @@ Daniel Pardo Navarro
 
 ## Descripción  
 Los portales inmobiliarios constituyen un elemento imprescindible en la actualidad para la compra-venta de propiedades. En este sentido, los usuarios de estos portales son tanto clientes privados como empresas y agencias inmobiliarias. Los compradores pueden hacer búsquedas parametrizando diferentes criterios de acuerdo con sus necesidades por lo que obtiene una visión global del mercado. En este proyecto se implementa un web scraper para recoger todos estos datos relevantes del portal inmobiliario Fotocasa (https://www.fotocasa.es/) debido a su relevancia en el mercado. Este portal es el segundo más importante de España en la actualidad y recibe cerca de casi 16 millones de visitas al mes (https://www.helpmycash.com/cat/vender-piso/portales-inmobiliarios/).
+En el portal web Fotocasa.es se publican anuncios para vender o alquilar una propiedad tanto por parte de los vendedores privados como agentes o inmobiliarias. Estas publicaciones las visualizan posibles compradores en la búsqueda de alguna propiedad. Al recoger la información que contienen estos anuncios se abre la posibilidad de que el dataset generado pueda ser utilizado de múltiples formas como analizar la situación del mercado inmobiliario, hacer estudios de mercado o de la competencia o búsquedas de oportunidades de inversión el mercado.
+
+![Image](https://github.com/Daniel-Pardo/webScraping/blob/main/diagrama.png)
 
 ## Ficheros
 - PRA_1.pdf: Contiene el documento con la respuesta a las preguntas planteadas en la práctica
@@ -43,9 +46,9 @@ El dataset que genera el script incluye 22 campos diferentes, aunque no todos el
 
 ## Ejecución
 Se deben indicar 3 parámetros:
-- -a Acción sobre la que hacer la búsuqeda ("comprar", "alquiler", "promociones-obra-nueva", "compartir", "alquiler-vacacional")
-- -t Tipo de propuedad ("viviendas", "locales", "garajes", "oficinas", "trasteros", "terrenos", "edificios")
-- -p Provincia de España
+- -a: Acción sobre la que hacer la búsuqeda ("comprar", "alquiler", "promociones-obra-nueva", "compartir", "alquiler-vacacional")
+- -t: Tipo de propuedad ("viviendas", "locales", "garajes", "oficinas", "trasteros", "terrenos", "edificios")
+- -p: Provincia de España
 ```sh
 python main.py -a comprar -t viviendas -p barcelona
 ```
