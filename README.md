@@ -47,6 +47,9 @@ El dataset que genera el script incluye 22 campos diferentes, aunque no todos el
 -	**Vendedor** - Identifica si es un particular o el nombre de la agencia inmobiliaria que publica el anuncio. 
 -	**Imagen** - Campo obligatorio. Se identifica con “SI” en el caso de que se haya descargado la imagen principal del anuncio. En caso de que el anuncio no contenga imagen el campo será “NO”. Las imágenes se guardan en el fichero “images” y tiene como nombre el mismo valor del identificador de la publicación concreta.  
 
+**Visualización del dataset de ejemplo**
+![Image](https://github.com/Daniel-Pardo/webScraping/blob/main/dataset.png)
+
 ## Ejecución
 Se deben indicar 3 parámetros:
 - -a: Acción sobre la que hacer la búsuqeda ("comprar", "alquiler", "promociones-obra-nueva", "compartir", "alquiler-vacacional")
